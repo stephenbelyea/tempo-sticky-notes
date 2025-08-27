@@ -13,3 +13,11 @@
 2. Run `nvm use`
 3. Run `npm install`
 4. Run `npm start`
+
+## Documentation
+
+You can find the following under the `/docs` folder:
+
+- [Default Vite Readme](/docs/VITE-README.md)
+- [Instructions from Tempo](/docs/INSTRUCTIONS.md)
+- [Working Dev Notes for prioritization](/docs/DEV-NOTES.md)
