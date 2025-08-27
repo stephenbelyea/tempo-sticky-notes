@@ -24,3 +24,21 @@ Need at least 3/4 of the following:
 3. Language: Typescript.
 4. React without stock components.
 5. If your project requires building, provide the necessary instructions.
+
+---
+
+## Work Priority
+
+- [ ] Board/surface component built and styled
+- [ ] Click handler across board component surface
+- [ ] Differentiate click + hold from click actions
+- [ ] Setup "add" action as default on click event
+- [ ] Add unstyled sticky block on click coordinates
+- [ ] Handle drag sizing of sticky on "add" action
+- [ ] Sticky note component built and styled
+- [ ] Click/drag handler captured within stickies
+- [ ] Handle drag resizing for sticky component
+- [ ] Create trash area on board
+- [ ] Handle drag to move sticky
+- [ ] Handle drop action over trash area
+- [ ] Sticky JSON API for coordinates, size, colour, text
