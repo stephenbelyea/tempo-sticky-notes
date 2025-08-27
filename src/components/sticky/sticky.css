@@ -1,0 +1,19 @@
+.sticky {
+  position: absolute;
+  border-width: 0.075rem;
+  border-radius: 0.25rem;
+  border-style: solid;
+  overflow: hidden;
+
+  &.free {
+    background: #fff;
+    border-color: #000;
+    opacity: 0.75;
+  }
+
+  &.stuck {
+    background: yellow;
+    border-color: #d0d002c6;
+    box-shadow: 0.1rem 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
+  }
+}
