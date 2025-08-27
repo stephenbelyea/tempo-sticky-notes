@@ -1,0 +1,35 @@
+.board {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.board-canvas,
+.board-surface {
+  width: 100%;
+  height: 100%;
+}
+
+.board-canvas {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.board-surface {
+  position: relative;
+  z-index: 1;
+}
+
+.sticky {
+  position: absolute;
+  border: solid 0.1rem black;
+  border-radius: 0.25rem;
+}
+
+.sticky.stuck {
+  background: yellow;
+  border: solid 0.1rem yellowgreen;
+  box-shadow: 0.1rem 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
+}
