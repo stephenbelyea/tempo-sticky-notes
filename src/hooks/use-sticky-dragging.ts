@@ -10,6 +10,10 @@ export const useStickyDragging = () => {
     const updatedStickies = stickies.map((item) => {
       if (item.id !== sticky?.id) return item;
 
+      // TODO :: Get the start coordinates based on the position within the
+      // sticky boundaries where the drag action was engaged, so we prevent
+      // the dropped sticky from jumping farther than intended on the page.
+
       const startX = e.pageX;
       const startY = e.pageY;
       const endX = (sticky?.clientWidth || 0) + startX;
